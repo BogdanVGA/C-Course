@@ -1,0 +1,7 @@
+The goal of the project is to implement a C declaration parser that will translate declarations into
+human readable form.
+
+Input example: char sortToken(char *string)
+Output example: declare sortToken as a function taking pointer to char returning char
+
+The file project_v03.c is the functional version of the project.
