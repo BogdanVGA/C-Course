@@ -1,0 +1,2 @@
+The goal of the homework is to implement a dynamic array using structs.
+If elements are added past its capacity, the array will reallocate memory, move the old array and add the new elements.
