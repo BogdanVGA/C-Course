@@ -9,20 +9,14 @@ int *foo -> Declare foo as pointer to int
 
 int *foo[5] -> Declare foo as array 5 of pointer to int
 
-
 int (*foo)[5] -> Declare foo as pointer to array 5 of int
-
 
 int *(*foo)[5] -> Declare foo as pointer to array 5 of pointer to int
 
-
 int foo()[5] -> Declare foo as function (void) returning array 5 of int
-
 
 int *(*foo)(char *) -> Declare foo as pointer to function (pointer to char) returning pointer to int
 
-
 int *(*foo[5])(char *) -> Declare foo as array 5 of pointer to function (pointer to char) returning pointer to int
-
 
 int *(*(*foo[5])(char *))[5] -> Declare foo as array 5 of pointer to function (pointer to char) returning pointer to array 5 of pointer to int
