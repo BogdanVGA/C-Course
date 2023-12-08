@@ -1,0 +1,2 @@
+list_v06.c takes as inputs from user a number of nodes and their value and creates a double linked list.
+The implementation offers the option to insert or remove a node at the place specified by the user.
